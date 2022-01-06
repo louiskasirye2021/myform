@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        label{
+            text-align: left;
+            font-family: chiller;
+            font-size: 30px;
+            color: rgb(255, 238, 0);
+        }
+        div{
+            padding: 10px;
+            font-family: chiller;
+            color: rgb(255, 238, 0);
+            font-size: 30px;
+        }
+        input[type=text]{
+            width: 250px;
+            height: 20px;
+            font-family: chiller;
+            font-size: 20px;
+        }
+        input[type=email]{
+            width: 250px;
+            height: 20px;
+            font-family: chiller;
+            font-size: 20px;
+        
+        }
+        h2{
+            font-family: chiller;
+            font-size: 35px;
+            color: rgb(255, 238, 0) ;
+        }
+        form{
+            border-radius: 4px;
+            background-color: rgba(223, 21, 88, 0.705);
+            width: 500px;
+            margin-left: 400px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+         background-image: url(brown.jpg);
+         background-size: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2><b>LOGIN</b></h2>
+        <div>
+          <label><b>Firstname</b></label>
+          <br>
+          <input type="text" name="firstname" placeholder="firstname"> 
+          <br> 
+        </div>
+        <div>
+            <label><b>Lastname</b></label>
+            <br>
+            <input type="text" name="lastname" placeholder="lastname">
+            <br>
+        </div>
+        <div>
+            <label><b>Email Address</b></label>
+            <br>
+            <input type="email" name="email address" placeholder="louislukoma@gmail.com">
+             <br>
+        </div>
+        <div>
+            <label for="age"><b>Age</b></label>
+            <br>
+            <input type="age" id="age" min="1" max="200" step="1">
+            <br>
+        </div>
+        <div>
+            <label for="date"><b>Birth date</b></label>
+            <br>
+            <input type="date" id="date">
+            <br>
+        </div>
+        <div>
+            <label for="password"><b>Password</b></label>
+            <br>
+            <input required type="password" name="password" placeholder="enter 8 characters">
+            <br>
+
+        </div>
+        <div>
+           <b> Gender</b>
+        </div>
+        <div>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male">
+        </div>
+        <div>
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <label for="Remember_me">Remember_me</label>
+            <input type="checkbox" name="remember me" id="remember me">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
